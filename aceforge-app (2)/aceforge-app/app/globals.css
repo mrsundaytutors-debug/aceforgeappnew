@@ -1,0 +1,7 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-slate-100 text-slate-900; }
+.card { @apply rounded-2xl border border-slate-200 bg-white p-4 mb-3; }
+.btn { @apply min-h-[46px] rounded-xl bg-gold px-4 py-2 font-bold text-slate-900 disabled:opacity-50; }
+.btn-sec { @apply min-h-[46px] rounded-xl border-2 border-navy-700 px-4 py-2 font-semibold; }
+.input { @apply w-full min-h-[46px] rounded-lg border border-slate-300 px-3 py-2 mb-3 bg-white; }
+.pill { @apply inline-block rounded-full bg-slate-200 px-2 py-0.5 text-xs font-bold; }
